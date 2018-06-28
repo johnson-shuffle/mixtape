@@ -35,3 +35,13 @@ cat(paste('-', x), sep = '\n')
 ```
 
 See the description files for more information.
+
+## Usage
+
+Loading the package attaches each of the datasets into the current environment.
+
+```{r usage}
+library(mixtape)
+
+summary(acemogluetal)
+```
