@@ -3,7 +3,7 @@
 \docType{data}
 \name{card}
 \alias{card}
-\title{Card, David (1995)}
+\title{Schooling and earnings dataset}
 \format{A data frame with 3010 rows and 37 variables:
 \describe{
   \item{id}{Residuals}
@@ -51,7 +51,10 @@
 card
 }
 \description{
-Data from "Using Geographic Variation in College Proximity to Estimate the
-Return to Schooling", NBER Working Paper No. 4483
+Data used in Card (1995) analysis of schooling and earnings.
+}
+\references{
+Card, David. "Using Geographic Variation in College Proximity to
+Estimate the Return to Schooling." NBER Working Paper (1995): 4483.
 }
 \keyword{datasets}

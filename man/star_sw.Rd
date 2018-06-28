@@ -3,7 +3,7 @@
 \docType{data}
 \name{star_sw}
 \alias{star_sw}
-\title{Krueger, Alan B. (1999)}
+\title{STAR dataset}
 \format{A data frame with 11598 rows and 40 variables:
 \describe{
   \item{stark}{attend project star class in kindergarten}
@@ -54,7 +54,11 @@
 star_sw
 }
 \description{
-Data from  "Experiental Estimates of Education Production Functions",
-Quarterly Journal of Economics 114(2) May, 497-532.
+Data used in the Krueger (1999) analysis of the randomized experiment in
+Tennessee called the Student/Teacher Achievement Ratio (STAR).
+}
+\references{
+Krueger, Alan B. "Experiental Estimates of Education Production
+Functions." \emph{Quarterly Journal of Economics} 114.2 (1999): 497-532.
 }
 \keyword{datasets}

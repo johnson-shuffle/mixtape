@@ -3,7 +3,7 @@
 \docType{data}
 \name{basque}
 \alias{basque}
-\title{Abadie, Alberto and Javier Gardeazabal (2003)}
+\title{Terrorism dataset}
 \format{A data frame with 774 rows and 23 variables:
 \describe{
    \item{regionno}{Region number}
@@ -37,7 +37,12 @@
 basque
 }
 \description{
-Data from "The Economic Costs of Conflict: A Case Study of the Basque
-Country", AER, 93(1), March, pp. 113-132
+Data used in Abadie and Gardeazabal (2003) analysis of the impact of
+terrorism in the Basque region.
+}
+\references{
+Alberto Abadie and Javier Gardeazabal. "The Economic Costs of
+Conflict: A Case Study of the Basque Country." \emph{American Economic
+Review} 93.1 (2003): 113-132.
 }
 \keyword{datasets}

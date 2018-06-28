@@ -3,20 +3,20 @@
 \docType{data}
 \name{nsw_dw}
 \alias{nsw_dw}
-\title{Dehejia, Rajeev H. and Sadek Wahba (2002)}
+\title{NSW dataset}
 \format{A data frame with 2675 rows and 16 variables:
 \describe{
-  \item{data_id}{}
-  \item{treat}{}
-  \item{age}{}
-  \item{educ}{}
-  \item{black}{}
-  \item{hisp}{}
-  \item{marr}{}
-  \item{nodegree}{}
-  \item{re74}{}
-  \item{re75}{}
-  \item{re78}{}
+  \item{data_id}{= "Dehejia-Wahba Sample"}
+  \item{treat}{= 1 for treatment}
+  \item{age}{age in years}
+  \item{educ}{years of schooling}
+  \item{black}{= 1 if black}
+  \item{hisp}{= 1 if hispanic}
+  \item{marr}{= 1 if married}
+  \item{nodegree}{= 1 if high school}
+  \item{re74}{earnings in 1974}
+  \item{re75}{earnings in 1975}
+  \item{re78}{earnings in 1978}
   \item{age2}{}
   \item{educ2}{}
   \item{re742}{}
@@ -30,7 +30,19 @@
 nsw_dw
 }
 \description{
-Data from "Propensity Score-Matching Methods for Nonexperimental Causal
-Studies" Review of Economics and Statistics 84(1) February, 151-161.
+Data used in the Dehejia and Wahba (2002) analysis of the NSW training
+program.
+}
+\references{
+Rajeev H. Dehejia and Sadek Wahba. "Propensity Score-Matching
+Methods for Nonexperimental Causal Studies." \emph{Review of Economics and
+Statistics} 84.1 (2002): 151-161.
+
+LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training
+Programs with Experimental Data." \emph{American Economic Review} 76.4
+(1986): 604-620.
+}
+\seealso{
+\code{\link{cps_controls}}, \code{\link{lalonde_1986}}, \code{\link{psid_controls}}
 }
 \keyword{datasets}

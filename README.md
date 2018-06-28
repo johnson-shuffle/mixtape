@@ -3,9 +3,9 @@
 
 ## Overview
 
-mixtape provides the datasets used in the book [“Casual Inference: The
-Mixtape”](http://scunning.com/cunningham_mixtape.pdf) by Scott
-Cunningham.
+This package provides the datasets used in the book [“Casual Inference:
+The Mixtape” by Scott
+Cunningham](http://scunning.com/cunningham_mixtape.pdf).
 
 ## Installation
 

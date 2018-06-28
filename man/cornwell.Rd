@@ -3,7 +3,7 @@
 \docType{data}
 \name{cornwell}
 \alias{cornwell}
-\title{Cornwell, Christopher and William N. Trumbull (1994)}
+\title{Crime dataset}
 \format{A data frame with 630 rows and 59 variables:
 \describe{
   \item{county}{county identifier}
@@ -73,7 +73,12 @@
 cornwell
 }
 \description{
-Data from "Estimating the Economic Model of Crime with Panel Data", Review of
-Economics and Statistics 76(2) May, 360-366.
+Data used in the Cornwell and Trumbull (1994) analysis of the economic model
+of crime.
+}
+\references{
+Christopher Cornwell and William N. Trumbull. "Estimating the
+Economic Model of Crime with Panel Data." \emph{Review of Economics and
+Statistics} 76.2 (1994): 360-366.
 }
 \keyword{datasets}

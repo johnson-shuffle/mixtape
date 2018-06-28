@@ -3,7 +3,7 @@
 \docType{data}
 \name{ucr2005}
 \alias{ucr2005}
-\title{UCR 2005}
+\title{UCR dataset (2005)}
 \format{A data frame with 96994 rows and 19 variables:
 \describe{
   \item{YEAR}{YEAR}
@@ -33,6 +33,10 @@
 ucr2005
 }
 \description{
-Data from UCR files, 2005, from FBI.
+Data from the Uniform Crime Reporting Program (UCR) (2005). Collected by the
+FBI.
+}
+\seealso{
+\code{\link{leoka2004}}, \code{\link{leoka2005}}, \code{\link{ucr2004}}
 }
 \keyword{datasets}

@@ -3,7 +3,7 @@
 \docType{data}
 \name{fish}
 \alias{fish}
-\title{Graddy, Kathryn (2006)}
+\title{Fish dataset}
 \format{A data frame with 97 rows and 11 variables:
 \describe{
   \item{quantity}{quantity of whiting sold in pounds}
@@ -25,7 +25,10 @@
 fish
 }
 \description{
-Data from "The Fulton Fish Market" Journal of Economic Perspectives, 20(2),
-Spring, 207-220.
+Data used in the Graddy (2006) analysis
+}
+\references{
+Kathryn Graddy. "The Fulton Fish Market." \emph{Journal of
+Economic Perspectives} 20.2 (2006): 207-220.
 }
 \keyword{datasets}

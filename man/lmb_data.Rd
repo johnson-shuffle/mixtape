@@ -3,7 +3,7 @@
 \docType{data}
 \name{lmb_data}
 \alias{lmb_data}
-\title{Lee, David S., Enrico Moretti, and Matthew J. Butler (2004)}
+\title{Voting and ideology dataset}
 \format{A data frame with 13588 rows and 178 variables:
 \describe{
   \item{state}{ICPSR STATE CODE}
@@ -192,7 +192,11 @@
 lmb_data
 }
 \description{
-Data from "Do Voters Affect or Elect Policies? Evidence from the U.S. House",
-August, 119(3), 807-859.
+Data used in the Lee et al (2004) analysis of voting and ideology.
+}
+\references{
+David S. Lee, Enrico Moretti, and Matthew J. Butler. "Do Voters
+Affect or Elect Policies? Evidence from the U.S. House." \emph{The Quarterly
+Journal of Economics} 119.3 (2004): 807-859.
 }
 \keyword{datasets}

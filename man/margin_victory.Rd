@@ -3,7 +3,7 @@
 \docType{data}
 \name{margin_victory}
 \alias{margin_victory}
-\title{Beland, Louis-Phillippe (2015)}
+\title{Margin of victory dataset}
 \format{A data frame with 1494 rows and 4 variables:
 \describe{
   \item{state2}{(mean) demwon}
@@ -18,7 +18,12 @@
 margin_victory
 }
 \description{
-Data from "Political Parties and Labor-Market Outcomes: Evidence from US
-States" AEJ: Applied, 7(4) October, 198-220.
+Data used in the Beland (2015) analysis of party allegiance on labor market
+outcomes.
+}
+\references{
+Louis-Phillippe Beland. "Political Parties and Labor-Market
+Outcomes: Evidence from US States." \emph{American Economic Journal: Applied
+Economics} 7.4 (2015): 198-220.
 }
 \keyword{datasets}

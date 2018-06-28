@@ -3,19 +3,19 @@
 \docType{data}
 \name{lalonde_1986}
 \alias{lalonde_1986}
-\title{LaLonde, Robert J. (1986)}
+\title{NSW dataset}
 \format{A data frame with 772 rows and 10 variables:
 \describe{
-  \item{data_id}{}
-  \item{treat}{}
-  \item{age}{}
-  \item{education}{}
-  \item{black}{}
-  \item{hispanic}{}
-  \item{married}{}
-  \item{nodegree}{}
-  \item{re75}{}
-  \item{re78}{}
+  \item{data_id}{= "Lalonde Sample"}
+  \item{treat}{= 1 for treatment}
+  \item{age}{age in years}
+  \item{education}{years of schooling}
+  \item{black}{= 1 if black}
+  \item{hispanic}{= 1 if hispanic}
+  \item{married}{= 1 if married}
+  \item{nodegree}{= 1 if high school}
+  \item{re75}{earnings in 1975}
+  \item{re78}{earnings in 1978}
 }}
 \source{
 \url{http://people.hbs.edu/nashraf/LaLonde_1986.pdf}
@@ -24,7 +24,13 @@
 lalonde_1986
 }
 \description{
-Data from "Evaluating the Econometric Evaluations of Training Programs with
-Experimental Data" AER, 76(4) September, 604-620.
+Data used in the LaLonde (1986) analysis of the NSW training program.
+}
+\references{
+LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training Programs with Experimental Data." \emph{American Economic Review} 76.4
+(1986): 604-620.
+}
+\seealso{
+\code{\link{cps_controls}}, \code{\link{nsw_dw}}, \code{\link{psid_controls}}
 }
 \keyword{datasets}

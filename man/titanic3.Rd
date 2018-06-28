@@ -3,7 +3,7 @@
 \docType{data}
 \name{titanic3}
 \alias{titanic3}
-\title{Titanic dataset}
+\title{Titanic dataset (3)}
 \format{A data frame with 1310 rows and 14 variables:
 \describe{
   \item{pclass}{pclass}
@@ -30,5 +30,8 @@ titanic3
 \description{
 Titanic manifest, both survivors and those who perished along several
 dimensions (e.g., sex, age, passenger class).
+}
+\seealso{
+\code{\link{titanic}}
 }
 \keyword{datasets}

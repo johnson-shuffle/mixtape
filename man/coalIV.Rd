@@ -3,7 +3,7 @@
 \docType{data}
 \name{coalIV}
 \alias{coalIV}
-\title{Black, Dan A., Terra G. McKinnish and Seth G. Sanders (2003)}
+\title{Coal dataset}
 \format{A data frame with 8175 rows and 10 variables:
 \describe{
   \item{year}{million tons coal 20+ seam}
@@ -24,8 +24,13 @@
 coalIV
 }
 \description{
-Data from "Does the Availability of High-wage Jobs from Low-skilled Men
-Affect Welfare Expenditures? Evidence from Shocks to the Steel and Coal
-Industries", Journal of Public Economics, 87, 1921-1942
+Data used in Black et al (2003) analysis of the effect of changes in demand
+for low-skilled workers on welfare expenditures.
+}
+\references{
+Dan A. Black, Terra G. McKinnish and Seth G. Sanders. "Does the
+Availability of High-wage Jobs from Low-skilled Men Affect Welfare
+Expenditures? Evidence from Shocks to the Steel and Coal Industries."
+\emph{Journal of Public Economics} 87 (2003): 1921-1942
 }
 \keyword{datasets}

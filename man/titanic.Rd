@@ -21,4 +21,7 @@ titanic
 Titanic manifest, both survivors and those who perished along several
 dimensions (e.g., sex, age, passenger class).
 }
+\seealso{
+\code{\link{titanic3}}
+}
 \keyword{datasets}

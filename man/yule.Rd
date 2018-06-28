@@ -3,7 +3,7 @@
 \docType{data}
 \name{yule}
 \alias{yule}
-\title{Yule, George Udny (1899)}
+\title{Paupers dataset}
 \format{A data frame with 599 rows and 103 variables:
 \describe{
   \item{ID}{ID}
@@ -117,8 +117,12 @@
 yule
 }
 \description{
-Data from "An Investigation into the Causes of Changes in Pauperism in
-England, Chiefly During the Last Two Interensal Decades", Journal of Royal
-Statistical Society, 62, pp. 249-295.
+Data used in the Yule (1899) analysis of public assistance and the number of
+paupers.
+}
+\references{
+Yule, George Udny. "An Investigation into the Causes of Changes
+in Pauperism in England, Chiefly During the Last Two Interensal Decades."
+\emph{"Journal of Royal Statistical Society} 62 (1899): 249-295.
 }
 \keyword{datasets}

@@ -1,10 +1,10 @@
 
 # ----- acemogluetal ------------------------------------------------------
 
-#' Acemoglu, et al. (2001)
+#' Colonial dataset
 #'
-#' Data from "The Colonial Origins of Comparative Development: An Empirical
-#' Investigation", AER, 91(5) December, pp. 1369-1401.
+#' Data used in Acemoglu et al (2001) analysis of the effet of instiutions on
+#' economic performance.
 #'
 #' @format A data frame with 64 rows and 8 variables:
 #' \describe{
@@ -17,19 +17,20 @@
 #'   \item{lgdp}{Log GDP per cpaita}
 #'   \item{logmort}{Log settler mortality}
 #' }
+#' @seealso \code{\link{ajrcomment}}
 #' @source \url{http://economics.mit.edu/files/4123}
-#' @references James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013)
-#' \emph{An Introduction to Statistical Learning with applications in R},
-#' \url{www.StatLearning.com}, Springer-Verlag, New York
+#' @references Daron Acemoglu, Simon Johnson, James A. Robinson. "The Colonial
+#' Origins of Comparative Development: An Empirical Investigation."
+#' \emph{American Economic Review} 91.5 (2001):1369-1401.
 "acemogluetal"
 
 
 # ----- ajrcomment --------------------------------------------------------
 
-#' Albouy, David Y. (2012)
+#' Colonial dataset (2)
 #'
-#' Data from "The Colonial Origins of Comparative Development: An Empirical
-#' Investigation: Comment", AER, 102(6), pp. 3059-3076
+#' Data used in the Albouy (2001) comment on "The Colonial Origins of
+#' Comparative Development: An Empirical Investigation."
 #'
 #' @format A data frame with 64 rows and 43 variables:
 #' \describe{
@@ -77,16 +78,23 @@
 #'   \item{mort_bis}{Bishop mortality}
 #'   \item{mort_set}{Actual settler mortality}"
 #' }
+#' \code{\link{acemogluetal}}
 #' @source \url{https://pdfs.semanticscholar.org/f179/00569cfd18339b3dbc53e66e2718b5db4a9c.pdf}
+#' @references  Daron Acemoglu, Simon Johnson, James A. Robinson. "The Colonial
+#' Origins of Comparative Development: An Empirical Investigation."
+#' \emph{American Economic Review} 91.5 (2001):1369-1401.
+#' David Y. Albouy. "The Colonial Origins of Comparative Development: An
+#' Empirical Investigation: Comment." \emph{American Economic Review} 102.6.
+#' (2012): 3059-3076
 "ajrcomment"
 
 
 # ----- basque ------------------------------------------------------------
 
-#' Abadie, Alberto and Javier Gardeazabal (2003)
+#' Terrorism dataset
 #'
-#' Data from "The Economic Costs of Conflict: A Case Study of the Basque
-#' Country", AER, 93(1), March, pp. 113-132
+#' Data used in Abadie and Gardeazabal (2003) analysis of the impact of
+#' terrorism in the Basque region.
 #'
 #' @format A data frame with 774 rows and 23 variables:
 #' \describe{
@@ -114,16 +122,18 @@
 #'    \item{school_high_share}{Human capital, high school (percentage shares)}
 #'    \item{school_posthigh_share}{Human capital, post-high school (percentage shares)}
 #' }
+#' @references Alberto Abadie and Javier Gardeazabal. "The Economic Costs of
+#' Conflict: A Case Study of the Basque Country." \emph{American Economic
+#' Review} 93.1 (2003): 113-132.
 #' @source \url{http://www.nyu.edu/gsas/dept/politics/faculty/beck/abadie_aer.pdf}
 "basque"
 
 
 # ----- card --------------------------------------------------------------
 
-#' Card, David (1995)
+#' Schooling and earnings dataset
 #'
-#' Data from "Using Geographic Variation in College Proximity to Estimate the
-#' Return to Schooling", NBER Working Paper No. 4483
+#' Data used in Card (1995) analysis of schooling and earnings.
 #'
 #' @format A data frame with 3010 rows and 37 variables:
 #' \describe{
@@ -165,6 +175,8 @@
 #'   \item{lwage_hat}{Residuals}
 #'   \item{u_educ}{Residuals}
 #' }
+#' @references Card, David. "Using Geographic Variation in College Proximity to
+#' Estimate the Return to Schooling." NBER Working Paper (1995): 4483.
 #' @source \url{https://www.dropbox.com/s/31xrncpk6gmlns3/Card\%201995.pdf\\?dl\\=0}
 "card"
 
@@ -172,10 +184,10 @@
 
 # ----- castle_doctrine_2000_2010 -----------------------------------------
 
-#' Cheng, Cheng and Mark Hoekstra (2013)
+#' Castle doctrine dataset
 #'
-#' Data from "Does Strengthening Self-Defense Law Deter Crime or Escalate
-#' Violence\\? Evidence from Expansions to Castle Doctrine" 48(3) pp. 821-854.
+#' Data used in Cheng and Hoekstra (2013) analysis castle doctrine gun laws on
+#' homicides.
 #'
 #' @format A data frame with 550 rows and 41 variables:
 #' \describe{
@@ -222,16 +234,18 @@
 #'   \item{effyear}{castle doctrine law, =1 if CDL is effective}
 #' }
 #' @source \url{http://jhr.uwpress.org/content/48/3/821.abstract}
+#' @references Cheng Cheng and Mark Hoekstra. "Does Strengthening Self-Defense
+#' Law Deter Crime or Escalate Violence? Evidence from Expansions to Castle
+#' Doctrine." \emph{Journal of Human Resources} 48.3 (2013): 821-854.
 "castle_doctrine_2000_2010"
 
 
 # ----- coalIV ------------------------------------------------------------
 
-#' Black, Dan A., Terra G. McKinnish and Seth G. Sanders (2003)
+#' Coal dataset
 #'
-#' Data from "Does the Availability of High-wage Jobs from Low-skilled Men
-#' Affect Welfare Expenditures? Evidence from Shocks to the Steel and Coal
-#' Industries", Journal of Public Economics, 87, 1921-1942
+#' Data used in Black et al (2003) analysis of the effect of changes in demand
+#' for low-skilled workers on welfare expenditures.
 #'
 #' @format A data frame with 8175 rows and 10 variables:
 #' \describe{
@@ -247,15 +261,19 @@
 #'   \item{afdc}{population in thousands (000)}
 #' }
 #' @source \url{https://www.sciencedirect.com/science/article/abs/pii/S0047272702000142}
+#' @references Dan A. Black, Terra G. McKinnish and Seth G. Sanders. "Does the
+#' Availability of High-wage Jobs from Low-skilled Men Affect Welfare
+#' Expenditures? Evidence from Shocks to the Steel and Coal Industries."
+#' \emph{Journal of Public Economics} 87 (2003): 1921-1942
 "coalIV"
 
 
 # ----- cornwell ----------------------------------------------------------
 
-#' Cornwell, Christopher and William N. Trumbull (1994)
+#' Crime dataset
 #'
-#' Data from "Estimating the Economic Model of Crime with Panel Data", Review of
-#' Economics and Statistics 76(2) May, 360-366.
+#' Data used in the Cornwell and Trumbull (1994) analysis of the economic model
+#' of crime.
 #'
 #' @format A data frame with 630 rows and 59 variables:
 #' \describe{
@@ -320,40 +338,50 @@
 #'   \item{clmix}{lmix - lmix[t-1]}
 #' }
 #' @source \url{https://www.amherst.edu/media/view/121570/original/CornwellTrumbullCrime\%2BElasticities.pdf}
+#' @references Christopher Cornwell and William N. Trumbull. "Estimating the
+#' Economic Model of Crime with Panel Data." \emph{Review of Economics and
+#' Statistics} 76.2 (1994): 360-366.
 "cornwell"
 
 
 # ----- cps_controls ------------------------------------------------------
 
-#' Dehejia, Rajeev H. and Sadek Wahba (2002)
+#' Current Population Survey (CPS) dataset
 #'
-#' Data from "Propensity Score-Matching Methods for Nonexperimental Causal
-#' Studies" Review of Economics and Statistics 84(1) February, 151-161.
+#' Non-experimental control group data drawn from the Current Population Survey
+#' (CPS).  Used in evaluating the NSW job training program.
 #'
 #' @format A data frame with 15992 rows and 11 variables:
 #' \describe{
-#'   \item{data_id}{}
-#'   \item{treat}{}
-#'   \item{age}{}
-#'   \item{education}{}
-#'   \item{black}{}
-#'   \item{hispanic}{}
-#'   \item{married}{}
-#'   \item{nodegree}{}
-#'   \item{re74}{}
-#'   \item{re75}{}
-#'   \item{re78}{}
+#'   \item{data_id}{= "CPS1"}
+#'   \item{treat}{= 1 for treatment}
+#'   \item{age}{age in years}
+#'   \item{education}{years of schooling}
+#'   \item{black}{= 1 if black}
+#'   \item{hispanic}{= 1 if hispanic}
+#'   \item{married}{= 1 if married}
+#'   \item{nodegree}{= 1 if high school}
+#'   \item{re74}{earnings in 1974}
+#'   \item{re75}{earnings in 1975}
+#'   \item{re78}{earnings in 1978}
 #' }
+#' @seealso \code{\link{lalonde_1986}}, \code{\link{nsw_dw}}, \code{\link{psid_controls}}
 #' @source \url{http://www.uh.edu/~adkugler/Dehejia&Wahba.pdf}
+#' @references Rajeev H. Dehejia and Sadek Wahba. "Propensity Score-Matching
+#' Methods for Nonexperimental Causal Studies." \emph{Review of Economics and
+#' Statistics} 84.1 (2002): 151-161.
+#'
+#' LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training
+#' Programs with Experimental Data." \emph{American Economic Review} 76.4
+#' (1986): 604-620.
 "cps_controls"
 
 
 # ----- fish --------------------------------------------------------------
 
-#' Graddy, Kathryn (2006)
+#' Fish dataset
 #'
-#' Data from "The Fulton Fish Market" Journal of Economic Perspectives, 20(2),
-#' Spring, 207-220.
+#' Data used in the Graddy (2006) analysis
 #'
 #' @format A data frame with 97 rows and 11 variables:
 #' \describe{
@@ -370,38 +398,43 @@
 #'   \item{time}{time trend}
 #' }
 #' @source \url{https://www.dropbox.com/s/4ab4vgxeskc94cq/Graddy\%202006.pdf?dl=0}
+#' @references Kathryn Graddy. "The Fulton Fish Market." \emph{Journal of
+#' Economic Perspectives} 20.2 (2006): 207-220.
 "fish"
 
 
 # ----- lalonde_1986 ------------------------------------------------------
 
-#' LaLonde, Robert J. (1986)
+#' NSW dataset
 #'
-#' Data from "Evaluating the Econometric Evaluations of Training Programs with
-#' Experimental Data" AER, 76(4) September, 604-620.
+#' Data used in the LaLonde (1986) analysis of the NSW training program.
 #'
 #' @format A data frame with 772 rows and 10 variables:
 #' \describe{
-#'   \item{data_id}{}
-#'   \item{treat}{}
-#'   \item{age}{}
-#'   \item{education}{}
-#'   \item{black}{}
-#'   \item{hispanic}{}
-#'   \item{married}{}
-#'   \item{nodegree}{}
-#'   \item{re75}{}
-#'   \item{re78}{}
+#'   \item{data_id}{= "Lalonde Sample"}
+#'   \item{treat}{= 1 for treatment}
+#'   \item{age}{age in years}
+#'   \item{education}{years of schooling}
+#'   \item{black}{= 1 if black}
+#'   \item{hispanic}{= 1 if hispanic}
+#'   \item{married}{= 1 if married}
+#'   \item{nodegree}{= 1 if high school}
+#'   \item{re75}{earnings in 1975}
+#'   \item{re78}{earnings in 1978}
 #' }
+#' @seealso \code{\link{cps_controls}}, \code{\link{nsw_dw}}, \code{\link{psid_controls}}
 #' @source \url{http://people.hbs.edu/nashraf/LaLonde_1986.pdf}
+#' @references LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training Programs with Experimental Data." \emph{American Economic Review} 76.4
+#' (1986): 604-620.
 "lalonde_1986"
 
 
 # ----- leoka2004 ---------------------------------------------------------
 
-#' LEOKA 2004
+#' LEOKA dataset (2004)
 #'
-#' Data from LEOKA files, 1960-2005, from FBI.
+#' Data from the Law Enforcement Officers Killed and Assaulted Program (LEOKA)
+#' (2004). Collected by the FBI.
 #'
 #' @format A data frame with 20585 rows and 10 variables:
 #' \describe{
@@ -416,15 +449,17 @@
 #'   \item{sworn}{}
 #'   \item{civil}{}
 #' }
+#' @seealso \code{\link{leoka2005}}, \code{\link{ucr2004}}, \code{\link{ucr2005}}
 #' @source \url{https://eml.berkeley.edu/~jmccrary/UCR/index.html}
 "leoka2004"
 
 
 # ----- leoka2005 ---------------------------------------------------------
 
-#' LEOKA 2005
+#' LEOKA dataset (2005)
 #'
-#' Data from LEOKA files, 1960-2005, from FBI.
+#' Data from the Law Enforcement Officers Killed and Assaulted Program (LEOKA)
+#' (2005). Collected by the FBI.
 #'
 #' @format A data frame with 20739 rows and 10 variables:
 #' \describe{
@@ -439,16 +474,16 @@
 #'   \item{sworn}{}
 #'   \item{civil}{}
 #' }
+#' @seealso \code{\link{leoka2004}}, \code{\link{ucr2004}}, \code{\link{ucr2005}}
 #' @source \url{https://eml.berkeley.edu/~jmccrary/UCR/index.html}
 "leoka2005"
 
 
 # ----- lmb_data ----------------------------------------------------------
 
-#' Lee, David S., Enrico Moretti, and Matthew J. Butler (2004)
+#' Voting and ideology dataset
 #'
-#' Data from "Do Voters Affect or Elect Policies? Evidence from the U.S. House",
-#' August, 119(3), 807-859.
+#' Data used in the Lee et al (2004) analysis of voting and ideology.
 #'
 #' @format A data frame with 13588 rows and 178 variables:
 #' \describe{
@@ -631,16 +666,19 @@
 #'   \item{id}{2}
 #'   \item{id2}{3}
 #' }
+#' @references David S. Lee, Enrico Moretti, and Matthew J. Butler. "Do Voters
+#' Affect or Elect Policies? Evidence from the U.S. House." \emph{The Quarterly
+#' Journal of Economics} 119.3 (2004): 807-859.
 #' @source \url{https://academic.oup.com/qje/article-abstract/119/3/807/1938834?redirectedFrom=fulltext}
 "lmb_data"
 
 
 # ----- margin_victory ----------------------------------------------------
 
-#' Beland, Louis-Phillippe (2015)
+#' Margin of victory dataset
 #'
-#' Data from "Political Parties and Labor-Market Outcomes: Evidence from US
-#' States" AEJ: Applied, 7(4) October, 198-220.
+#' Data used in the Beland (2015) analysis of party allegiance on labor market
+#' outcomes.
 #'
 #' @format A data frame with 1494 rows and 4 variables:
 #' \describe{
@@ -650,71 +688,89 @@
 #'   \item{marginvvv}{(mean) marginvvv}
 #' }
 #' @source \url{https://www.aeaweb.org/articles?id=10.1257/app.20120387}
+#' @references Louis-Phillippe Beland. "Political Parties and Labor-Market
+#' Outcomes: Evidence from US States." \emph{American Economic Journal: Applied
+#' Economics} 7.4 (2015): 198-220.
 "margin_victory"
 
 
 # ----- nsw_dw ------------------------------------------------------------
 
-#' Dehejia, Rajeev H. and Sadek Wahba (2002)
+#' NSW dataset
 #'
-#' Data from "Propensity Score-Matching Methods for Nonexperimental Causal
-#' Studies" Review of Economics and Statistics 84(1) February, 151-161.
+#' Data used in the Dehejia and Wahba (2002) analysis of the NSW training
+#' program.
 #'
 #' @format A data frame with 2675 rows and 16 variables:
 #' \describe{
-#'   \item{data_id}{}
-#'   \item{treat}{}
-#'   \item{age}{}
-#'   \item{educ}{}
-#'   \item{black}{}
-#'   \item{hisp}{}
-#'   \item{marr}{}
-#'   \item{nodegree}{}
-#'   \item{re74}{}
-#'   \item{re75}{}
-#'   \item{re78}{}
+#'   \item{data_id}{= "Dehejia-Wahba Sample"}
+#'   \item{treat}{= 1 for treatment}
+#'   \item{age}{age in years}
+#'   \item{educ}{years of schooling}
+#'   \item{black}{= 1 if black}
+#'   \item{hisp}{= 1 if hispanic}
+#'   \item{marr}{= 1 if married}
+#'   \item{nodegree}{= 1 if high school}
+#'   \item{re74}{earnings in 1974}
+#'   \item{re75}{earnings in 1975}
+#'   \item{re78}{earnings in 1978}
 #'   \item{age2}{}
 #'   \item{educ2}{}
 #'   \item{re742}{}
 #'   \item{re752}{}
 #'   \item{blacku74}{}
 #' }
+#' @seealso \code{\link{cps_controls}}, \code{\link{lalonde_1986}}, \code{\link{psid_controls}}
 #' @source \url{http://www.uh.edu/~adkugler/Dehejia&Wahba.pdf}
+#' @references Rajeev H. Dehejia and Sadek Wahba. "Propensity Score-Matching
+#' Methods for Nonexperimental Causal Studies." \emph{Review of Economics and
+#' Statistics} 84.1 (2002): 151-161.
+#'
+#' LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training
+#' Programs with Experimental Data." \emph{American Economic Review} 76.4
+#' (1986): 604-620.
 "nsw_dw"
 
 
 # ----- psid_controls -----------------------------------------------------
 
-#' Dehejia, Rajeev H. and Sadek Wahba (2002)
+#' Panel Survey of Income Dynamics (PSID) dataset
 #'
-#' Data from "Propensity Score-Matching Methods for Nonexperimental Causal
-#' Studies" Review of Economics and Statistics 84(1) February, 151-161.
+#' Non-experimental control group data drawn from the Panel Survey of Income
+#' Dynamics (PSID). Used in evaluating the NSW job training program.
 #'
 #' @format A data frame with 2490 rows and 11 variables:
 #' \describe{
-#'   \item{data_id}{}
-#'   \item{treat}{}
-#'   \item{age}{}
-#'   \item{education}{}
-#'   \item{black}{}
-#'   \item{hispanic}{}
-#'   \item{married}{}
-#'   \item{nodegree}{}
-#'   \item{re74}{}
-#'   \item{re75}{}
-#'   \item{re78}{}
+#'   \item{data_id}{= "PSID"}
+#'   \item{treat}{= 1 for treatment}
+#'   \item{age}{age in years}
+#'   \item{education}{years of schooling}
+#'   \item{black}{= 1 if black}
+#'   \item{hispanic}{= 1 if hispanic}
+#'   \item{married}{= 1 if married}
+#'   \item{nodegree}{= 1 if high school}
+#'   \item{re74}{earnings in 1974}
+#'   \item{re75}{earnings in 1975}
+#'   \item{re78}{earnings in 1978}
 #' }
+#' @seealso \code{\link{cps_controls}}, \code{\link{lalonde_1986}}, \code{\link{nsw_dw}}
 #' @source \url{http://www.uh.edu/~adkugler/Dehejia&Wahba.pdf}
+#' @references Rajeev H. Dehejia and Sadek Wahba. "Propensity Score-Matching
+#' Methods for Nonexperimental Causal Studies." \emph{Review of Economics and
+#' Statistics} 84.1 (2002): 151-161.
+#'
+#' LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training
+#' Programs with Experimental Data." \emph{American Economic Review} 76.4
+#' (1986): 604-620.
 "psid_controls"
 
 
 # ----- smoking -----------------------------------------------------------
 
-#' Abadie, Alberto, Alexis Diamond and Jens Hainmueller (2010)
+#' Smoking dataset
 #'
-#' Data from  "Synthetic Control Methods for Comparative Case Studies:
-#' Estimating the Effect of California's Tobacco Control Program" Journal of the
-#' American Statistical Association, 105(490), June, 493-505.
+#' Data used in the Abadie et al. (2010) analysis of a cigarette tax in
+#' California called Proposition 99.
 #'
 #' @format A data frame with 1209 rows and 7 variables:
 #' \describe{
@@ -726,16 +782,20 @@
 #'   \item{age15to24}{percent of state population aged 15-24 years}
 #'   \item{retprice}{retail price of cigarettes}
 #' }
+#' @references Alberto Abadie, Alexis Diamond, and Jens Hainmueller. "Synthetic
+#' Control Methods for Comparative Case Studies: Estimating the Effect of
+#' California's Tobacco Control Program." \emph{Journal of the American
+#' Statistical Association} 105.490 (2010): 493-505.
 #' @source \url{http://economics.mit.edu/files/11859}
 "smoking"
 
 
 # ----- star_sw -----------------------------------------------------------
 
-#' Krueger, Alan B. (1999)
+#' STAR dataset
 #'
-#' Data from  "Experiental Estimates of Education Production Functions",
-#' Quarterly Journal of Economics 114(2) May, 497-532.
+#' Data used in the Krueger (1999) analysis of the randomized experiment in
+#' Tennessee called the Student/Teacher Achievement Ratio (STAR).
 #'
 #' @format A data frame with 11598 rows and 40 variables:
 #' \describe{
@@ -781,6 +841,8 @@
 #'   \item{freelun3}{school id-g3 (new) 3rd grade}
 #' }
 #' @source \url{https://academic.oup.com/qje/article/114/2/497/1844226/Experimental-Estimates-of-Education-Production}
+#' @references Krueger, Alan B. "Experiental Estimates of Education Production
+#' Functions." \emph{Quarterly Journal of Economics} 114.2 (1999): 497-532.
 "star_sw"
 
 
@@ -788,7 +850,7 @@
 
 #' Texas dataset
 #'
-#' Balanced panel (1985-2000) of imprisonment by race and other covariates.
+#' Balanced panel of imprisonment by race and other covariates (1985-2000).
 #'
 #' @format A data frame with 816 rows and 24 variables:
 #' \describe{
@@ -835,13 +897,14 @@
 #'   \item{sex}{Gender}
 #'   \item{survived}{Survived}
 #' }
+#' @seealso \code{\link{titanic3}}
 #' @source \url{https://www.dropbox.com/s/fxuph22p88vkacc/titanic3_readme.pdf?dl=0}
 "titanic"
 
 
 # ----- titanic3 ----------------------------------------------------------
 
-#' Titanic dataset
+#' Titanic dataset (3)
 #'
 #' Titanic manifest, both survivors and those who perished along several
 #' dimensions (e.g., sex, age, passenger class).
@@ -863,15 +926,17 @@
 #'   \item{body}{body}
 #'   \item{homedest}{home.dest}
 #' }
+#' @seealso \code{\link{titanic}}
 #' @source \url{https://www.dropbox.com/s/fxuph22p88vkacc/titanic3_readme.pdf?dl=0}
 "titanic3"
 
 
 # ucr2004 -----------------------------------------------------------------
 
-#' UCR 2004
+#' UCR dataset (2004)
 #'
-#' Data from UCR files, 2004, from FBI.
+#' Data from the Uniform Crime Reporting Program (UCR) (2004). Collected by the
+#' FBI.
 #'
 #' @format A data frame with 94272 rows and 19 variables:
 #' \describe{
@@ -895,15 +960,17 @@
 #'   \item{POP}{(max) POP}
 #'   \item{date}{YEAR}
 #' }
+#' @seealso \code{\link{leoka2004}}, \code{\link{leoka2005}}, \code{\link{ucr2005}}
 #' @source \url{https://eml.berkeley.edu/~jmccrary/UCR/index.html}
 "ucr2004"
 
 
 # ucr2005 -----------------------------------------------------------------
 
-#' UCR 2005
+#' UCR dataset (2005)
 #'
-#' Data from UCR files, 2005, from FBI.
+#' Data from the Uniform Crime Reporting Program (UCR) (2005). Collected by the
+#' FBI.
 #'
 #' @format A data frame with 96994 rows and 19 variables:
 #' \describe{
@@ -927,17 +994,17 @@
 #'   \item{POP}{(max) POP}
 #'   \item{date}{YEAR}
 #' }
+#' @seealso \code{\link{leoka2004}}, \code{\link{leoka2005}}, \code{\link{ucr2004}}
 #' @source \url{https://eml.berkeley.edu/~jmccrary/UCR/index.html}
 "ucr2005"
 
 
 # ----- yule --------------------------------------------------------------
 
-#' Yule, George Udny (1899)
+#' Paupers dataset
 #'
-#' Data from "An Investigation into the Causes of Changes in Pauperism in
-#' England, Chiefly During the Last Two Interensal Decades", Journal of Royal
-#' Statistical Society, 62, pp. 249-295.
+#' Data used in the Yule (1899) analysis of public assistance and the number of
+#' paupers.
 #'
 #' @format A data frame with 599 rows and 103 variables:
 #' \describe{
@@ -1046,4 +1113,7 @@
 #'   \item{PropF6591}{Proportion of Females Aged 65+ in the 1891 Female Population}
 #' }
 #' @source \url{https://edisciplinas.usp.br/mod/resource/view.php?id=1418367}
+#' @references Yule, George Udny. "An Investigation into the Causes of Changes
+#' in Pauperism in England, Chiefly During the Last Two Interensal Decades."
+#' \emph{"Journal of Royal Statistical Society} 62 (1899): 249-295.
 "yule"

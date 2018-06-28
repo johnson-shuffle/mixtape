@@ -3,7 +3,7 @@
 \docType{data}
 \name{castle_doctrine_2000_2010}
 \alias{castle_doctrine_2000_2010}
-\title{Cheng, Cheng and Mark Hoekstra (2013)}
+\title{Castle doctrine dataset}
 \format{A data frame with 550 rows and 41 variables:
 \describe{
   \item{state}{state id}
@@ -55,7 +55,12 @@
 castle_doctrine_2000_2010
 }
 \description{
-Data from "Does Strengthening Self-Defense Law Deter Crime or Escalate
-Violence\\? Evidence from Expansions to Castle Doctrine" 48(3) pp. 821-854.
+Data used in Cheng and Hoekstra (2013) analysis castle doctrine gun laws on
+homicides.
+}
+\references{
+Cheng Cheng and Mark Hoekstra. "Does Strengthening Self-Defense
+Law Deter Crime or Escalate Violence? Evidence from Expansions to Castle
+Doctrine." \emph{Journal of Human Resources} 48.3 (2013): 821-854.
 }
 \keyword{datasets}

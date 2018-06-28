@@ -3,7 +3,7 @@
 \docType{data}
 \name{leoka2004}
 \alias{leoka2004}
-\title{LEOKA 2004}
+\title{LEOKA dataset (2004)}
 \format{A data frame with 20585 rows and 10 variables:
 \describe{
   \item{ori}{}
@@ -24,6 +24,10 @@
 leoka2004
 }
 \description{
-Data from LEOKA files, 1960-2005, from FBI.
+Data from the Law Enforcement Officers Killed and Assaulted Program (LEOKA)
+(2004). Collected by the FBI.
+}
+\seealso{
+\code{\link{leoka2005}}, \code{\link{ucr2004}}, \code{\link{ucr2005}}
 }
 \keyword{datasets}

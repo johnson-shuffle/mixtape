@@ -3,7 +3,7 @@
 \docType{data}
 \name{smoking}
 \alias{smoking}
-\title{Abadie, Alberto, Alexis Diamond and Jens Hainmueller (2010)}
+\title{Smoking dataset}
 \format{A data frame with 1209 rows and 7 variables:
 \describe{
   \item{state}{state no}
@@ -21,8 +21,13 @@
 smoking
 }
 \description{
-Data from  "Synthetic Control Methods for Comparative Case Studies:
-Estimating the Effect of California's Tobacco Control Program" Journal of the
-American Statistical Association, 105(490), June, 493-505.
+Data used in the Abadie et al. (2010) analysis of a cigarette tax in
+California called Proposition 99.
+}
+\references{
+Alberto Abadie, Alexis Diamond, and Jens Hainmueller. "Synthetic
+Control Methods for Comparative Case Studies: Estimating the Effect of
+California's Tobacco Control Program." \emph{Journal of the American
+Statistical Association} 105.490 (2010): 493-505.
 }
 \keyword{datasets}

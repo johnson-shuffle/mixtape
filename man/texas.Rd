@@ -38,6 +38,6 @@
 texas
 }
 \description{
-Balanced panel (1985-2000) of imprisonment by race and other covariates.
+Balanced panel of imprisonment by race and other covariates (1985-2000).
 }
 \keyword{datasets}

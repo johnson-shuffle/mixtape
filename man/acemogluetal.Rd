@@ -3,7 +3,7 @@
 \docType{data}
 \name{acemogluetal}
 \alias{acemogluetal}
-\title{Acemoglu, et al. (2001)}
+\title{Colonial dataset}
 \format{A data frame with 64 rows and 8 variables:
 \describe{
   \item{countryn}{full country name}
@@ -22,12 +22,15 @@
 acemogluetal
 }
 \description{
-Data from "The Colonial Origins of Comparative Development: An Empirical
-Investigation", AER, 91(5) December, pp. 1369-1401.
+Data used in Acemoglu et al (2001) analysis of the effet of instiutions on
+economic performance.
 }
 \references{
-James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013)
-\emph{An Introduction to Statistical Learning with applications in R},
-\url{www.StatLearning.com}, Springer-Verlag, New York
+Daron Acemoglu, Simon Johnson, James A. Robinson. "The Colonial
+Origins of Comparative Development: An Empirical Investigation."
+\emph{American Economic Review} 91.5 (2001):1369-1401.
+}
+\seealso{
+\code{\link{ajrcomment}}
 }
 \keyword{datasets}

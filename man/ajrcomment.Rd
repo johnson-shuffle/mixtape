@@ -3,7 +3,7 @@
 \docType{data}
 \name{ajrcomment}
 \alias{ajrcomment}
-\title{Albouy, David Y. (2012)}
+\title{Colonial dataset (2)}
 \format{A data frame with 64 rows and 43 variables:
 \describe{
   \item{longname}{full country name}
@@ -49,7 +49,8 @@
   \item{new_data}{Rates from AJR Response (mort2)}
   \item{mort_bis}{Bishop mortality}
   \item{mort_set}{Actual settler mortality}"
-}}
+}
+\code{\link{acemogluetal}}}
 \source{
 \url{https://pdfs.semanticscholar.org/f179/00569cfd18339b3dbc53e66e2718b5db4a9c.pdf}
 }
@@ -57,7 +58,15 @@
 ajrcomment
 }
 \description{
-Data from "The Colonial Origins of Comparative Development: An Empirical
-Investigation: Comment", AER, 102(6), pp. 3059-3076
+Data used in the Albouy (2001) comment on "The Colonial Origins of
+Comparative Development: An Empirical Investigation."
+}
+\references{
+Daron Acemoglu, Simon Johnson, James A. Robinson. "The Colonial
+Origins of Comparative Development: An Empirical Investigation."
+\emph{American Economic Review} 91.5 (2001):1369-1401.
+David Y. Albouy. "The Colonial Origins of Comparative Development: An
+Empirical Investigation: Comment." \emph{American Economic Review} 102.6.
+(2012): 3059-3076
 }
 \keyword{datasets}
