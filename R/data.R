@@ -3,8 +3,8 @@
 
 #' Colonial dataset
 #'
-#' Data used in Acemoglu et al (2001) analysis of the effet of instiutions on
-#' economic performance.
+#' Data used in the Acemoglu et al (2001) analysis of the effet of instiutions
+#' on economic performance.
 #'
 #' @format A data frame with 64 rows and 8 variables:
 #' \describe{
@@ -17,11 +17,11 @@
 #'   \item{lgdp}{Log GDP per cpaita}
 #'   \item{logmort}{Log settler mortality}
 #' }
-#' @seealso \code{\link{ajrcomment}}
 #' @source \url{http://economics.mit.edu/files/4123}
 #' @references Daron Acemoglu, Simon Johnson, James A. Robinson. "The Colonial
 #' Origins of Comparative Development: An Empirical Investigation."
 #' \emph{American Economic Review} 91.5 (2001):1369-1401.
+#' @seealso \code{\link{ajrcomment}}
 "acemogluetal"
 
 
@@ -78,7 +78,6 @@
 #'   \item{mort_bis}{Bishop mortality}
 #'   \item{mort_set}{Actual settler mortality}"
 #' }
-#' \code{\link{acemogluetal}}
 #' @source \url{https://pdfs.semanticscholar.org/f179/00569cfd18339b3dbc53e66e2718b5db4a9c.pdf}
 #' @references  Daron Acemoglu, Simon Johnson, James A. Robinson. "The Colonial
 #' Origins of Comparative Development: An Empirical Investigation."
@@ -86,6 +85,7 @@
 #' David Y. Albouy. "The Colonial Origins of Comparative Development: An
 #' Empirical Investigation: Comment." \emph{American Economic Review} 102.6.
 #' (2012): 3059-3076
+#' @seealso \code{\link{acemogluetal}}
 "ajrcomment"
 
 
@@ -93,7 +93,7 @@
 
 #' Terrorism dataset
 #'
-#' Data used in Abadie and Gardeazabal (2003) analysis of the impact of
+#' Data used in the Abadie and Gardeazabal (2003) analysis of the impact of
 #' terrorism in the Basque region.
 #'
 #' @format A data frame with 774 rows and 23 variables:
@@ -133,7 +133,7 @@
 
 #' Schooling and earnings dataset
 #'
-#' Data used in Card (1995) analysis of schooling and earnings.
+#' Data used in the Card (1995) analysis of schooling and earnings.
 #'
 #' @format A data frame with 3010 rows and 37 variables:
 #' \describe{
@@ -177,17 +177,15 @@
 #' }
 #' @references Card, David. "Using Geographic Variation in College Proximity to
 #' Estimate the Return to Schooling." NBER Working Paper (1995): 4483.
-#' @source \url{https://www.dropbox.com/s/31xrncpk6gmlns3/Card\%201995.pdf\\?dl\\=0}
+#' @source \url{https://www.dropbox.com/s/31xrncpk6gmlns3/Card\%201995.pdf?dl=0}
 "card"
-
 
 
 # ----- castle_doctrine_2000_2010 -----------------------------------------
 
 #' Castle doctrine dataset
 #'
-#' Data used in Cheng and Hoekstra (2013) analysis castle doctrine gun laws on
-#' homicides.
+#' Data used in the Cheng and Hoekstra (2013) analysis castle doctrine gun laws #' on homicides.
 #'
 #' @format A data frame with 550 rows and 41 variables:
 #' \describe{
@@ -244,8 +242,8 @@
 
 #' Coal dataset
 #'
-#' Data used in Black et al (2003) analysis of the effect of changes in demand
-#' for low-skilled workers on welfare expenditures.
+#' Data used in the Black et al (2003) analysis of the effect of changes in
+#' demand for low-skilled workers on welfare expenditures.
 #'
 #' @format A data frame with 8175 rows and 10 variables:
 #' \describe{
