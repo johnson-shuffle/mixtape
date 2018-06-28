@@ -8,7 +8,7 @@ Description: Provides the datasets used in the book "Casual Inference: The
     Mixtape"
 URL: http://scunning.com/cunningham_mixtape.pdf
 GithubRepo: mixtape
-GithubUsername: johnson_shuffle
+GithubUsername: johnson-shuffle
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

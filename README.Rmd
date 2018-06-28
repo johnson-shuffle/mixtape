@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.path = 'man/figures/README-')
+```
+
+## Overview
+
+mixtape provides the datasets used in the book ["Casual Inference: The 
+Mixtape"](http://scunning.com/cunningham_mixtape.pdf) by Scott Cunningham.
+
+## Installation
+
+```{r install, eval = F}
+devtools::install_github('johnson-shuffle/mixtape')
+```
+
+## Datasets
+
+The datasets included in this package are:
+
+```{r datasets, echo = F}
+x <- list.files('data')
+x <- gsub('\\.rda', '', x)
+```
+
+```{r datasets-list, echo = F, results = 'asis'}
+cat(paste('-', x), sep = '\n')
+```
+
+See the description files for more information.
