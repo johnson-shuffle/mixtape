@@ -1,0 +1,15 @@
+Package: mixtape
+Type: Package
+Title: Data for Causal Inference: The Mixtape by Scott Cunningham
+Version: 0.1.0
+Author: Jacob Johnson
+Maintainer: Jacob Johnson <dr.jake.johnson@gmail.com>
+Description: Provides the datasets used in the book "Casual Inference: The 
+    Mixtape"
+URL: http://scunning.com/cunningham_mixtape.pdf
+GithubRepo: mixtape
+GithubUsername: johnson_shuffle
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
