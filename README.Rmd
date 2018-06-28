@@ -34,7 +34,7 @@ x <- gsub('\\.rda', '', x)
 cat(paste('-', x), sep = '\n')
 ```
 
-See the description files for more information.
+See the documentation files for more information.
 
 ## Usage
 

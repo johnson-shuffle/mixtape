@@ -42,7 +42,7 @@ The datasets included in this package are:
   - ucr2005
   - yule
 
-See the description files for more information.
+See the documentation files for more information.
 
 ## Usage
 
