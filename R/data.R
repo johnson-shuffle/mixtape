@@ -363,7 +363,6 @@
 #'   \item{re75}{earnings in 1975}
 #'   \item{re78}{earnings in 1978}
 #' }
-#' @seealso \code{\link{lalonde_1986}}, \code{\link{nsw_dw}}, \code{\link{psid_controls}}
 #' @source \url{http://www.uh.edu/~adkugler/Dehejia&Wahba.pdf}
 #' @references Rajeev H. Dehejia and Sadek Wahba. "Propensity Score-Matching
 #' Methods for Nonexperimental Causal Studies." \emph{Review of Economics and
@@ -372,6 +371,7 @@
 #' LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training
 #' Programs with Experimental Data." \emph{American Economic Review} 76.4
 #' (1986): 604-620.
+#' @seealso \code{\link{lalonde_1986}}, \code{\link{nsw_dw}}, \code{\link{psid_controls}}
 "cps_controls"
 
 
@@ -420,10 +420,10 @@
 #'   \item{re75}{earnings in 1975}
 #'   \item{re78}{earnings in 1978}
 #' }
-#' @seealso \code{\link{cps_controls}}, \code{\link{nsw_dw}}, \code{\link{psid_controls}}
 #' @source \url{http://people.hbs.edu/nashraf/LaLonde_1986.pdf}
 #' @references LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training Programs with Experimental Data." \emph{American Economic Review} 76.4
 #' (1986): 604-620.
+#' @seealso \code{\link{cps_controls}}, \code{\link{nsw_dw}}, \code{\link{psid_controls}}
 "lalonde_1986"
 
 
@@ -447,8 +447,8 @@
 #'   \item{sworn}{}
 #'   \item{civil}{}
 #' }
-#' @seealso \code{\link{leoka2005}}, \code{\link{ucr2004}}, \code{\link{ucr2005}}
 #' @source \url{https://eml.berkeley.edu/~jmccrary/UCR/index.html}
+#' @seealso \code{\link{leoka2005}}, \code{\link{ucr2004}}, \code{\link{ucr2005}}
 "leoka2004"
 
 
@@ -472,8 +472,8 @@
 #'   \item{sworn}{}
 #'   \item{civil}{}
 #' }
-#' @seealso \code{\link{leoka2004}}, \code{\link{ucr2004}}, \code{\link{ucr2005}}
 #' @source \url{https://eml.berkeley.edu/~jmccrary/UCR/index.html}
+#' @seealso \code{\link{leoka2004}}, \code{\link{ucr2004}}, \code{\link{ucr2005}}
 "leoka2005"
 
 
@@ -718,7 +718,6 @@
 #'   \item{re752}{}
 #'   \item{blacku74}{}
 #' }
-#' @seealso \code{\link{cps_controls}}, \code{\link{lalonde_1986}}, \code{\link{psid_controls}}
 #' @source \url{http://www.uh.edu/~adkugler/Dehejia&Wahba.pdf}
 #' @references Rajeev H. Dehejia and Sadek Wahba. "Propensity Score-Matching
 #' Methods for Nonexperimental Causal Studies." \emph{Review of Economics and
@@ -727,6 +726,7 @@
 #' LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training
 #' Programs with Experimental Data." \emph{American Economic Review} 76.4
 #' (1986): 604-620.
+#' @seealso \code{\link{cps_controls}}, \code{\link{lalonde_1986}}, \code{\link{psid_controls}}
 "nsw_dw"
 
 
@@ -751,7 +751,6 @@
 #'   \item{re75}{earnings in 1975}
 #'   \item{re78}{earnings in 1978}
 #' }
-#' @seealso \code{\link{cps_controls}}, \code{\link{lalonde_1986}}, \code{\link{nsw_dw}}
 #' @source \url{http://www.uh.edu/~adkugler/Dehejia&Wahba.pdf}
 #' @references Rajeev H. Dehejia and Sadek Wahba. "Propensity Score-Matching
 #' Methods for Nonexperimental Causal Studies." \emph{Review of Economics and
@@ -760,6 +759,7 @@
 #' LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training
 #' Programs with Experimental Data." \emph{American Economic Review} 76.4
 #' (1986): 604-620.
+#' @seealso \code{\link{cps_controls}}, \code{\link{lalonde_1986}}, \code{\link{nsw_dw}}
 "psid_controls"
 
 
@@ -895,8 +895,8 @@
 #'   \item{sex}{Gender}
 #'   \item{survived}{Survived}
 #' }
-#' @seealso \code{\link{titanic3}}
 #' @source \url{https://www.dropbox.com/s/fxuph22p88vkacc/titanic3_readme.pdf?dl=0}
+#' @seealso \code{\link{titanic3}}
 "titanic"
 
 
@@ -924,8 +924,8 @@
 #'   \item{body}{body}
 #'   \item{homedest}{home.dest}
 #' }
-#' @seealso \code{\link{titanic}}
 #' @source \url{https://www.dropbox.com/s/fxuph22p88vkacc/titanic3_readme.pdf?dl=0}
+#' @seealso \code{\link{titanic}}
 "titanic3"
 
 
@@ -958,8 +958,8 @@
 #'   \item{POP}{(max) POP}
 #'   \item{date}{YEAR}
 #' }
-#' @seealso \code{\link{leoka2004}}, \code{\link{leoka2005}}, \code{\link{ucr2005}}
 #' @source \url{https://eml.berkeley.edu/~jmccrary/UCR/index.html}
+#' @seealso \code{\link{leoka2004}}, \code{\link{leoka2005}}, \code{\link{ucr2005}}
 "ucr2004"
 
 
@@ -992,8 +992,8 @@
 #'   \item{POP}{(max) POP}
 #'   \item{date}{YEAR}
 #' }
-#' @seealso \code{\link{leoka2004}}, \code{\link{leoka2005}}, \code{\link{ucr2004}}
 #' @source \url{https://eml.berkeley.edu/~jmccrary/UCR/index.html}
+#' @seealso \code{\link{leoka2004}}, \code{\link{leoka2005}}, \code{\link{ucr2004}}
 "ucr2005"
 
 

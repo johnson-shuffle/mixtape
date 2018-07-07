@@ -4,8 +4,7 @@
 ## Overview
 
 This package provides the datasets used in the book [“Casual Inference:
-The Mixtape” by Scott
-Cunningham](http://scunning.com/cunningham_mixtape.pdf).
+The Mixtape”](http://scunning.com/stata.html) by Scott Cunningham.
 
 ## Installation
 
