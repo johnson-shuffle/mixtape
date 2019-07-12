@@ -55,8 +55,8 @@
 castle_doctrine_2000_2010
 }
 \description{
-Data used in Cheng and Hoekstra (2013) analysis castle doctrine gun laws on
-homicides.
+Data used in the Cheng and Hoekstra (2013) analysis of the effect of
+castle doctrine gun laws on homicides.
 }
 \references{
 Cheng Cheng and Mark Hoekstra. "Does Strengthening Self-Defense

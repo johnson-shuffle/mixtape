@@ -3,7 +3,7 @@
 
 #' Colonial dataset
 #'
-#' Data used in the Acemoglu et al (2001) analysis of the effet of instiutions
+#' Data used in the Acemoglu et al. (2001) analysis of the effect of institutions
 #' on economic performance.
 #'
 #' @format A data frame with 64 rows and 8 variables:
@@ -185,7 +185,8 @@
 
 #' Castle doctrine dataset
 #'
-#' Data used in the Cheng and Hoekstra (2013) analysis castle doctrine gun laws #' on homicides.
+#' Data used in the Cheng and Hoekstra (2013) analysis of the effect of
+#' castle doctrine gun laws on homicides.
 #'
 #' @format A data frame with 550 rows and 41 variables:
 #' \describe{
@@ -242,7 +243,7 @@
 
 #' Coal dataset
 #'
-#' Data used in the Black et al (2003) analysis of the effect of changes in
+#' Data used in the Black et al. (2003) analysis of the effect of changes in
 #' demand for low-skilled workers on welfare expenditures.
 #'
 #' @format A data frame with 8175 rows and 10 variables:
@@ -347,7 +348,8 @@
 #' Current Population Survey (CPS) dataset
 #'
 #' Non-experimental control group data drawn from the Current Population Survey
-#' (CPS).  Used in evaluating the NSW job training program.
+#' (CPS). Used in evaluating the National Supported Work Demonstration (NSW)
+#' job training program.
 #'
 #' @format A data frame with 15992 rows and 11 variables:
 #' \describe{
@@ -379,7 +381,7 @@
 
 #' Fish dataset
 #'
-#' Data used in the Graddy (2006) analysis
+#' Data used in the Graddy (2006) analysis of the Fulton Fish Market.
 #'
 #' @format A data frame with 97 rows and 11 variables:
 #' \describe{
@@ -405,7 +407,8 @@
 
 #' NSW dataset
 #'
-#' Data used in the LaLonde (1986) analysis of the NSW training program.
+#' Data used in the LaLonde (1986) analysis of the National Supported Work
+#' Demonstration (NSW) training program.
 #'
 #' @format A data frame with 772 rows and 10 variables:
 #' \describe{
@@ -432,7 +435,7 @@
 #' LEOKA dataset (2004)
 #'
 #' Data from the Law Enforcement Officers Killed and Assaulted Program (LEOKA)
-#' (2004). Collected by the FBI.
+#' (2004). Collected by the Federal Bureau of Investigation (FBI).
 #'
 #' @format A data frame with 20585 rows and 10 variables:
 #' \describe{
@@ -457,7 +460,7 @@
 #' LEOKA dataset (2005)
 #'
 #' Data from the Law Enforcement Officers Killed and Assaulted Program (LEOKA)
-#' (2005). Collected by the FBI.
+#' (2005). Collected by the Federal Bureau of Investigation (FBI).
 #'
 #' @format A data frame with 20739 rows and 10 variables:
 #' \describe{
@@ -481,7 +484,7 @@
 
 #' Voting and ideology dataset
 #'
-#' Data used in the Lee et al (2004) analysis of voting and ideology.
+#' Data used in the Lee et al. (2004) analysis of voting and ideology.
 #'
 #' @format A data frame with 13588 rows and 178 variables:
 #' \describe{

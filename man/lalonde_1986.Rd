@@ -24,7 +24,8 @@
 lalonde_1986
 }
 \description{
-Data used in the LaLonde (1986) analysis of the NSW training program.
+Data used in the LaLonde (1986) analysis of the National Supported Work
+Demonstration (NSW) training program.
 }
 \references{
 LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training Programs with Experimental Data." \emph{American Economic Review} 76.4

@@ -25,7 +25,7 @@ leoka2004
 }
 \description{
 Data from the Law Enforcement Officers Killed and Assaulted Program (LEOKA)
-(2004). Collected by the FBI.
+(2004). Collected by the Federal Bureau of Investigation (FBI).
 }
 \seealso{
 \code{\link{leoka2005}}, \code{\link{ucr2004}}, \code{\link{ucr2005}}

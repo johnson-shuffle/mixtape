@@ -37,7 +37,7 @@
 basque
 }
 \description{
-Data used in Abadie and Gardeazabal (2003) analysis of the impact of
+Data used in the Abadie and Gardeazabal (2003) analysis of the impact of
 terrorism in the Basque region.
 }
 \references{
