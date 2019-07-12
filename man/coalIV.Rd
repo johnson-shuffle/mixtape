@@ -24,8 +24,8 @@
 coalIV
 }
 \description{
-Data used in Black et al (2003) analysis of the effect of changes in demand
-for low-skilled workers on welfare expenditures.
+Data used in the Black et al. (2003) analysis of the effect of changes in
+demand for low-skilled workers on welfare expenditures.
 }
 \references{
 Dan A. Black, Terra G. McKinnish and Seth G. Sanders. "Does the

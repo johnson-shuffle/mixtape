@@ -26,7 +26,8 @@ cps_controls
 }
 \description{
 Non-experimental control group data drawn from the Current Population Survey
-(CPS).  Used in evaluating the NSW job training program.
+(CPS). Used in evaluating the National Supported Work Demonstration (NSW)
+job training program.
 }
 \references{
 Rajeev H. Dehejia and Sadek Wahba. "Propensity Score-Matching

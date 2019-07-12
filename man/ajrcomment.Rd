@@ -49,8 +49,7 @@
   \item{new_data}{Rates from AJR Response (mort2)}
   \item{mort_bis}{Bishop mortality}
   \item{mort_set}{Actual settler mortality}"
-}
-\code{\link{acemogluetal}}}
+}}
 \source{
 \url{https://pdfs.semanticscholar.org/f179/00569cfd18339b3dbc53e66e2718b5db4a9c.pdf}
 }
@@ -68,5 +67,8 @@ Origins of Comparative Development: An Empirical Investigation."
 David Y. Albouy. "The Colonial Origins of Comparative Development: An
 Empirical Investigation: Comment." \emph{American Economic Review} 102.6.
 (2012): 3059-3076
+}
+\seealso{
+\code{\link{acemogluetal}}
 }
 \keyword{datasets}

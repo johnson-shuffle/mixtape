@@ -25,7 +25,7 @@
 fish
 }
 \description{
-Data used in the Graddy (2006) analysis
+Data used in the Graddy (2006) analysis of the Fulton Fish Market.
 }
 \references{
 Kathryn Graddy. "The Fulton Fish Market." \emph{Journal of

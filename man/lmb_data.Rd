@@ -192,7 +192,7 @@
 lmb_data
 }
 \description{
-Data used in the Lee et al (2004) analysis of voting and ideology.
+Data used in the Lee et al. (2004) analysis of voting and ideology.
 }
 \references{
 David S. Lee, Enrico Moretti, and Matthew J. Butler. "Do Voters

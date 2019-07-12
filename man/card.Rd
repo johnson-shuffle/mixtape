@@ -45,13 +45,13 @@
   \item{u_educ}{Residuals}
 }}
 \source{
-\url{https://www.dropbox.com/s/31xrncpk6gmlns3/Card\%201995.pdf\\?dl\\=0}
+\url{https://www.dropbox.com/s/31xrncpk6gmlns3/Card\%201995.pdf?dl=0}
 }
 \usage{
 card
 }
 \description{
-Data used in Card (1995) analysis of schooling and earnings.
+Data used in the Card (1995) analysis of schooling and earnings.
 }
 \references{
 Card, David. "Using Geographic Variation in College Proximity to

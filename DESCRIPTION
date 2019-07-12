@@ -4,11 +4,13 @@ Title: Data for Causal Inference: The Mixtape by Scott Cunningham
 Version: 0.1.0
 Author: Jake Johnson
 Maintainer: Jake Johnson <dr.jake.johnson@gmail.com>
-Description: Provides the datasets used in the book "Casual Inference: The Mixtape"
-URL: http://scunning.com/cunningham_mixtape.pdf
+Description: Provides the datasets used in the book "Casual Inference: 
+The Mixtape" (Cunningham 2018, http://scunning.com/cunningham_mixtape.pdf)
+URL: https://github.com/johnson-shuffle/mixtape
 GithubRepo: mixtape
 GithubUsername: johnson-shuffle
-License: GPL-3
+License: GPL-3 + file
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
+Depends: R (>= 2.10)

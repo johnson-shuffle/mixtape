@@ -22,8 +22,8 @@
 acemogluetal
 }
 \description{
-Data used in Acemoglu et al (2001) analysis of the effet of instiutions on
-economic performance.
+Data used in the Acemoglu et al. (2001) analysis of the effect of institutions
+on economic performance.
 }
 \references{
 Daron Acemoglu, Simon Johnson, James A. Robinson. "The Colonial
