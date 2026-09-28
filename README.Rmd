@@ -10,10 +10,19 @@ knitr::opts_chunk$set(
   fig.path = 'man/figures/README-')
 ```
 
+> [!NOTE]
+> ### Superseded by [`causaldata`](https://cran.r-project.org/package=causaldata)
+> This package was an early community effort created in 2018 to make datasets from Scott Cunningham's then-unpublished draft of *Causal Inference: The Mixtape* accessible in R (when materials were Stata-only).
+> 
+> With the official publication of the book, this package has been superseded by the CRAN package [**`causaldata`**](https://cran.r-project.org/package=causaldata) (maintained by Nick Huntington-Klein). For current work with the published textbook, please install `causaldata`:
+> 
+> ```r
+> install.packages("causaldata")
+> ```
+
 ## Overview
 
-This package provides the datasets used in the book ["Casual Inference: The 
-Mixtape"](http://scunning.com/stata.html) by Scott Cunningham.
+This package provides the datasets used in the book *Causal Inference: The Mixtape* by Scott Cunningham.
 
 ## Installation
 
